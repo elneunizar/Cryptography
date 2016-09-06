@@ -14,6 +14,6 @@ def decrypt(plain,key):
 		c+=alpha[c_ind]
 	return c
 if __name__=='__main__':
-	print decrypt("Immdvgbz","nizar")
+	print decrypt("Immdvgbz","abcdefghijklmnopq")
 
 
